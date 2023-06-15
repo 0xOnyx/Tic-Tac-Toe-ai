@@ -2,7 +2,7 @@
 import { e_player } from "../type/type.ts";
 import type { t_size } from "../type/type.ts";
 
-const WINDOWS:number =  4
+const WINDOWS:number =  4pla
 
 function calc_value_tab(tab: e_player[]): number
 {
@@ -33,7 +33,7 @@ function calc_value_tab(tab: e_player[]): number
 	return (0);
 }
 
-function calc_board_value(size: t_size, tab: e_player[][]): number
+export function calc_board_value(size: t_size, tab: e_player[][]): number
 {
 	let	score: number;
 	let x: number;
